@@ -8,6 +8,7 @@ namespace Problem3
         {
             //Problem 3:
             decimal a, b, c;
+            Console.WriteLine("Enter a, b, c: ");
             String[] nums = Console.ReadLine().Split();
             a = decimal.Parse(nums[0]);
             b = decimal.Parse(nums[1]);
